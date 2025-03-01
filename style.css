@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;
+margin: 50px auto;
+
+    
+}
+
+img{
+    width: 80px;
+    height: 50px;
+}
+
+.item{
+     width: 26vw;
+     height: 30vh;
+     font-size: 10px;
+     margin: 5px;
+     background-color: white;
+     text-align: center;
+     border-radius: 15px;
+     transition:1s;
+}
+p{
+    font-size: 13px;
+}
+.item:hover{
+    transform: translateY(-10px);
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.578);
+}
